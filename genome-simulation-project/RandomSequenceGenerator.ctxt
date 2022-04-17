@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=RandomSequenceGenerator
+comment0.text=\n\ Generates\ random\ DNA\ sequences.\ Can\ also\ \n\ generate\ open\ reading\ frames\ for\ prokaryotic\ \n\ genomes.\n\n\ @author\ Roshan\ Sen\n\ @version\ 04/17/2022\n
+comment1.params=
+comment1.target=RandomSequenceGenerator()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ RandomSequenceGenerator\n
+comment2.params=
+comment2.target=void\ setCodons()
+comment2.text=\n\ Sets\ the\ values\ of\ the\ codon\ lists.\n
+comment3.params=length
+comment3.target=java.lang.String\ randomOrf(int)
+comment3.text=\n\ Builds\ a\ random\ open\ reading\ frame\ with\n\ a\ stop\ codon.\ This\ applies\ to\ prokaryotic\ \n\ ORFs\ because\ this\ method\ does\ not\ add\n\ introns.\n\ @param\ length\ -\ length\ of\ the\ ORF\ in\ amino\ acids\n\ @return\ String\ -\ a\ new\ sequence\n
+comment4.params=newProbs
+comment4.target=void\ setBaseProbs(double[])
+comment4.text=\n\ Sets\ the\ probabilities\ of\ each\ base\n\ @param\ an\ array\ of\ double\ probabilities\n
+comment5.params=
+comment5.target=double[]\ getBaseProbs()
+comment5.text=\n\ Gets\ the\ base\ probabilities.\n\ @return\ baseProbs\n
+comment6.params=length
+comment6.target=java.lang.String\ randomSequence(int)
+comment6.text=\n\ Builds\ a\ random\ sequence\ based\ on\ the\ probabilities\n\ of\ each\ base\ in\ the\ object.\n\ @param\ length\ -\ length\ of\ the\ sequence\ in\ nucleotides\n\ @return\ newSequence\ -\ a\ random\ sequence\n
+numComments=7
